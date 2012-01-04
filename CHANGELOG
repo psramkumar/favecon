@@ -1,0 +1,34 @@
+FaveCon AddressBook Changelog
+=============================
+
+
+	0.1.3 -> 0.1.5
+--------------------
+ * easier system for future translations
+ * fixed utf8 bug
+ * fixed PHP magic_quotes bug
+ * calendar for date of birth has no restrictions
+ * added possibility to reload contact list manually
+ * improved view of contact details
+ * backup & recovery:
+   - CSV
+   - XML & XML Export for personal purposes
+ * minor bugfixes
+
+
+	0.1.2 -> 0.1.3
+--------------------
+ * added possibility to (de)activate user
+ * added option to add a short comment for each user
+
+
+	0.1.1 -> 0.1.2
+--------------------
+ * Google Maps loading correctly!
+
+ 
+	0.1 -> 0.1.1
+--------------------
+ * Translation failure fixed: "PLZ" is "Postal code" in English
+ * Error while searching for "title" of a contact
+ * While searching sometimes a curious string appears as a founded contact

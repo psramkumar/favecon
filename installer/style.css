@@ -1,0 +1,137 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+* * * * * * * *																								* * * * * * * *
+* * * * * * * *		   	 	  			  Stylesheet for style: 'installer'				 					* * * * * * * *
+* * * * * * * *													       		 								* * * * * * * *
+* * * * * * * *						   Written 2010-2011 by Daniel Mühlbachler  							* * * * * * * *
+* * * * * * * *			    	    Copyright (C) 2010-2011 by Daniel Mühlbachler  							* * * * * * * *
+* * * * * * * *											   		    										* * * * * * * *
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+*********************
+ FaveCon AddressBook
+*********************
+Copyright (C) 2010-2011 Daniel Mühlbachler
+
+FaveCon AddressBook is a contact management system with Google Maps and Facebook Integration (if you have API keys for it!).
+	
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+*********************
+ Contact Information
+*********************
+To contact the developer of this program visit: http://www.muehlbachler.org
+
+*/
+
+	
+/* BODY */
+body {
+	padding:0;
+	margin:0;
+}
+body, * {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:12px;
+}
+
+/* HEAD */
+#status {
+	margin-top:20px;
+	border-top:1px solid #666;
+	border-bottom:1px solid #666;
+	margin-left:10px;
+	margin-right:10px;
+	background-color:#CCC;
+	margin-bottom:35px;
+}
+#status del {
+	display:table;
+	margin:0 auto;
+}
+#status del ul {
+	padding:0;
+	margin:0;
+}
+#status del ul li:first-child {
+	border:none;
+}
+#status del ul li {
+	float:left;
+	list-style-type:none;
+	padding:10px 50px;
+	height:20px;
+	border-left:1px solid #666;
+}
+#status del ul li, #status del ul li * {	
+	font-size:15px;
+	font-weight:bold;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	text-decoration:none;
+	color:#666;
+}
+#status del ul li.selected {
+	text-decoration:underline;
+	color:#930;
+	font-weight:bold;
+}
+
+/* BODY */
+#content {
+	margin-left:15px;
+	margin-right:15px;
+	border:1px solid #999;
+	-moz-border-radius:10px;
+}
+#content #steps {
+	padding:5px;
+}
+
+#head {
+	text-align:center;
+	font-size:27px;
+	color:#900;
+	text-decoration:underline;
+	font-weight:bold;
+	padding-top:15px;
+}
+
+input[type=button], input[type=submit] {
+	font-size:14px;
+	padding:5px 20px;
+}
+input[type=button]:hover, input[type=button]:focus, input[type=submit]:hover, input[type=submit]:focus {
+	cursor:pointer;
+}
+
+a {
+	color:#036;
+	text-decoration:none;
+}
+a:hover, a:focus {
+	text-decoration:underline;
+}
+
+table.user tr td:first-child {
+	font-weight:bold;
+	font-size:16px;
+	color:#960;
+	padding:5px 20px;
+}
+
+/* Form-Elemente */
+input[type=text], textarea, select, input[type=password] {
+	border:1px solid #CCC;
+	-moz-border-radius:10px;
+	padding:2px 6px;
+	color:#666;
+}
+input[type=text]:hover, input[type=text]:focus, textarea:hover, textarea:focus, select:hover, select:focus, input[type=password]:hover, input[type=password]:focus {
+	border-color:#666;
+	color:#000;
+}

@@ -1,0 +1,29 @@
+FaveCon AddressBook Installation Instructions
+=============================================
+
+
+Requirements
+------------
+ * Apache Webserver
+ * PHP version 5.2 or greater including MySQL-Support
+ * MySQL database engine
+ * MySQL InnoDB support for recovery feature
+ * The permission to create databases and tables in the MySQL database engine
+ * PHP cURL support for: Facebook Integration, Update notification for System users
+ * API keys for Facebook and/or Google Maps if you want to use these features
+
+
+Installation
+------------
+ 1. Decompress the archive and put this folder somewhere inside your document root
+ 2. Add your database config to config/config.db.php
+ 3. Create the MySQL database
+ 4. Point your browser to http://url-to-FaveCon/installer/
+ 5. Follow the instruction of the install script
+ 6. Remove the install directory
+ 7. Done!
+
+
+UPDATE
+------
+Please read through the file UPDATE.

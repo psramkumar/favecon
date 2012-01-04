@@ -1,0 +1,35 @@
+FaveCon AddressBook README
+==========================
+
+
+Overview
+--------
+FaveCon AddressBook is a contact management system with Google Maps and Facebook Integration (if you have API keys!).
+
+
+Licensing
+---------
+Copyright (C) 2010-2012 Daniel Mühlbachler
+This product is distributed under the GNU General Public License (GPL) v3.
+Please read through the file COPYING for more information about our license.
+
+
+Installation
+------------
+To get detailed installation instructions, read through the file INSTALL.
+
+
+Changelog
+---------
+To get information about changes in newer versions please read through the file CHANGELOG.
+
+
+Update
+------
+Please read through the file UPDATE.
+
+
+Contact
+-------
+For any bug reports, feature requests or support requests please refer to the projects website at http://favecon.muehlbachler.org.
+If you want more details or if want to make a donation look at the projects website or https://sourceforge.net/projects/favecon.

@@ -1,0 +1,2 @@
+en;English;us
+de;Deutsch;de
